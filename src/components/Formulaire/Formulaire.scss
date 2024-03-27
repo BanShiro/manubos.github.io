@@ -1,0 +1,113 @@
+// .Formulaire{
+//     height: 100vh;
+//     // margin-left: 7rem;
+//     // margin-right: 7rem;
+//     // &__Header{
+//     //     // display: flex;
+//     //     // justify-content: center;
+//     //     // margin-top: 5rem;
+//     // }
+.Formulaire{
+    &__Main{
+            gap: 15em;
+        &__Right{
+            width: 20em;
+        }
+        &__Left{
+            width: 20em;
+        }
+    }
+}
+
+//         // display: flex;
+//         // flex-direction: row;
+//         // justify-content: space-between;
+//         // margin: 5rem;
+//         // &__Left{
+//         //     // display: flex;
+//         //     // flex-direction: column;
+//         //     // justify-content: center;
+//         //     // align-items: center;
+//         //     // &__Offre__{
+//         //     //     // display: flex;
+//         //     //     // flex-direction: row;
+//         //     // }
+//         //     // &__Box{
+//         //     //     // scale: 80%;
+//         //     // }
+//         // }
+//         // &__Right{
+//         //     display: flex;
+//         //     flex-direction: column;
+//         //     justify-content: center;
+//         //     width: 30vw;
+//             // &__Input{
+//             //     width: 100%;
+//             //     display: flex;
+//             // }
+//         }
+//     }
+
+// }
+.Formulaire{
+    height: 100vh;
+}
+.Formulaire__Main__Left__Offre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border: solid 5px;
+    border-radius: 10px;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+// .Formulaire__Main__Right__Imput{
+//     display: flex;
+//     flex-direction: column;
+// }
+
+.Formulaire__Main__Right__Envoyer{
+    width: 30%;
+    border-radius: 5px;
+
+}
+
+.Formulaire__Main__Right__Demarcation{
+    // margin-top: 3rem;
+    // margin-bottom: 3rem;
+    height: 0.25rem;
+    background-color: #272583;
+}
+
+.croix{
+    scale: 175%;
+    color: #525252;
+}
+
+.croix:hover{
+    scale: 200%;
+}
+
+.Delete{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DFDFDF;
+    color: #525252;
+    border-radius: 5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    // margin-bottom: 2rem;
+}
+
+.Formulaire__Main__Right__Confirmer{
+    width: 100%;
+    border-radius: 5px;
+}

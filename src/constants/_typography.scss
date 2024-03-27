@@ -1,0 +1,91 @@
+@use "./variable" as *;
+h1 {
+    font-family: $font-family-title;
+    font-size: 10vw !important;
+    margin: 0%;
+    line-height: 0.82 !important;
+    margin-bottom: 0% !important;
+}
+h2{
+    font-family: $font-family-title;
+    font-size: 8vw !important;
+    margin: 0%;
+    margin-bottom: 0% !important;
+}
+h3{
+    font-family: $font-family-title;
+    font-size: 6vw !important;
+    margin: 0%;
+    margin-bottom: 0% !important;
+}
+h4{
+    font-family: $font-family-title;
+    font-size: 3rem !important;
+    margin: 0%;
+    margin-bottom: 0% !important;
+}
+h5 {
+    font-family: $font-family-title;
+    font-size: 2vw !important;
+    margin: 0%;
+    margin-bottom: 0% !important;
+}
+
+h6 {
+    font-family: $font-family-title;
+    font-size: 1.5rem !important;
+    margin: 0%;
+    margin-bottom: 0% !important;
+}
+
+p {
+    font-family: $font-family-base;
+    font-size: 1.8vw !important;
+    margin: 0%;
+    margin-bottom: 0% !important;
+}
+
+// __________________________________________
+.p_bold {
+    font-family: $font-family-base;
+    font-weight: 600;
+    font-size: 2vw !important;
+}
+.span_bold {
+    font-family: $font-family-base;
+    font-weight: 600;
+}
+// __________________________________________
+
+.bdr-5{
+    border-radius: 5px;
+}
+// __________________________________________
+
+
+@media screen and (max-width: 767px) {
+    h4{
+        font-family: $font-family-title;
+        font-size: 1.75rem !important;
+        margin: 0%;
+        margin-bottom: 0% !important;
+    }
+    h6 {
+        font-family: $font-family-title;
+        font-size: 1.25rem !important;
+        margin: 0%;
+        margin-bottom: 0% !important;
+    }
+    h5{
+        font-family: $font-family-title;
+        font-size: 1.50rem !important;
+        margin: 0%;
+        margin-bottom: 0% !important;
+    }
+    h3{
+        font-family: $font-family-title;
+        font-size: 3rem !important;
+        margin: 0%;
+        margin-bottom: 0% !important;
+    }
+}

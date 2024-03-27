@@ -1,0 +1,62 @@
+.btn-supp{
+    border: none;
+    background: none;
+}
+.delete-zone{
+    max-height: 11.5em;
+    overflow: auto;
+}
+.Formulaire__Main{
+    flex-direction: row;
+}
+.Formulaire__Main__Right, .Formulaire__Main__Left{
+    width: 23em;
+}
+.Formulaire__Main__Left__Box{
+    width: 100%;
+}
+@media (max-width: 1100px){ 
+    .Formulaire__Main{
+        flex-direction: column;
+        gap: 1em;
+    }
+    .Formulaire__Main__Left__Box{
+        display: none;
+    }
+}
+
+    .cls-1 {
+        fill: #fff;
+    }
+
+    .cls-1, .cls-2 {
+        stroke: #9e9d9e;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+    }
+
+    .cls-2 {
+        fill: #444545;
+        // fill: #272583;
+    }
+
+    .green {
+        fill: #5ebc5b;
+        stroke-width: 0px;
+    }
+    .yellow {
+        fill: #fee70a;
+        stroke-width: 0px;
+    }
+    .orange {
+        fill: #f7901e;
+        stroke-width: 0px;
+    }
+    .red {
+        fill: #dd3330;
+        stroke-width: 0px;
+    }
+    .grey{
+        fill: #444545;
+        stroke-width: 0px;
+    }

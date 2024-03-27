@@ -1,0 +1,34 @@
+.Section_Avis{
+    background: linear-gradient(286deg, rgba(129,185,222,1) 0%, rgba(74,73,146,1) 50%, rgba(65,64,82,1) 100%);
+}
+
+.card-text{
+    font-size: 1.1rem;
+    font-family: "Arial";
+}
+
+.card-body{
+    height: 25vh;
+}
+
+
+@media (min-width: 769px) {
+    .mobile-view {
+      display: none;
+    }
+  
+    .desktop-view {
+      display: block;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .mobile-view {
+      display: block;
+    }
+  
+    .desktop-view {
+      display: none;
+    }
+  }
+  
